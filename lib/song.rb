@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require 'pry'
 
 class Song
@@ -56,3 +57,22 @@ class Song
 end 
 
 
+=======
+class Song 
+  attr_accessor :name, :artist, :genre 
+
+  
+  def initialize(name, artist, genre)
+    
+    @@count = 0 + self 
+    @@genres = [] 
+  end
+  
+  def count 
+    @@count 
+  end
+  
+  
+  
+end
+>>>>>>> f717ef1d87fdf0a70a39e23ae99de9803ff4333d
